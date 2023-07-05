@@ -51,7 +51,7 @@ const Hero = () => {
             <div className="relative flex justify-center items-center m-[2rem]">
                 <div
                     className="h-96 w-full text-center bg-cover bg-no-repeat bg-center opacity-10 hidden lg:block"
-                    style={{ backgroundImage: "url('/assets/crowd.svg')" }}
+                    style={{ backgroundImage: "url('/assets/crowd.webp')" }}
                 ></div>
                 <article className="lg:absolute flex flex-col justify-center items-center">
                     <h2 className="text-7xl text-white ">ALL ARE ECO</h2>
