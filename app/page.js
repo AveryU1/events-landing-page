@@ -1,4 +1,5 @@
 import { Navbar } from './components/Navbar'
+import { OurPartners } from './components/OurPartners'
 import { WhatWeDo } from './components/WhatWeDo'
 
 export default function Home() {
@@ -6,6 +7,7 @@ export default function Home() {
     <main>
       <Navbar/>
       <WhatWeDo/>
+      <OurPartners/>
     </main>
   )
 }

@@ -3,11 +3,11 @@ import Image from "next/image";
 
 export const CardWhat = () => {
     return (
-        <div className="flex gap-5 items-center overflow-x-scroll sm:overflow-hidden sm:flex-wrap sm:justify-center">
+        <div className="flex gap-5 items-center overflow-x-scroll md:overflow-hidden md:flex-wrap md:justify-center md:flex-1">
             {whatWeDo.map((context) => (
                 <div
                     key={context.id}
-                    className="rounded-[30px] bg-color-card flex flex-col items-center w-[315px] flex-shrink-0 sm:w-[555px]"
+                    className="rounded-[30px] bg-color-card flex flex-col items-center w-[315px] flex-shrink-0 md:w-[555px]"
                 >
                     <div className="flex flex-col items-center gap-5 py-4 sm:gap-10 sm:pb-10">
                         <Image
