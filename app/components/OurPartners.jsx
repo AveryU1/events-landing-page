@@ -13,7 +13,7 @@ export const OurPartners = () => {
                             <Image src={partner.imgLink} width={350} height={315} alt='partners img'/>
                         <div className='bg-color-card w-[350px] h-[86px] flex-shrink-0 flex justify-center items-center rounded-b-[50px] relative bottom-[85px]'> 
                             <div className='flex justify-center items-center gap-2'>
-                                <p className='text-[#fff] text-lg font-inter font-medium'>{partner.link}</p>
+                                <a href='#' className='text-[#fff] text-lg font-inter font-medium'>{partner.link}</a>
                                 <span className='text-[#fff]'><VscLinkExternal/></span>
                             </div>
                         </div>
