@@ -22,6 +22,7 @@ const Hero = () => {
             <ul className="flex items-center lg:items-start xxs:overflow-auto snap-x snap-mandatory snap-center gap-4 lg:overflow-visible lg:justify-center lg:pt-24">
                 <li className="snap-center xxs:shrink-0 lg:shrink bg-border-gradient p-[1px] rounded-full ">
                     <Image
+                        loading="eager"
                         className="rounded-full lg:w-[280px]"
                         src={heroImage1}
                         width={320}
@@ -31,6 +32,7 @@ const Hero = () => {
                 </li>
                 <li className="snap-center xxs:shrink-0 lg:shrink bg-border-gradient p-[1px] rounded-full">
                     <Image
+                        loading="eager"
                         className="rounded-full lg:w-[380px] xl:w-[400px]"
                         src={heroImage2}
                         width={320}
@@ -40,6 +42,7 @@ const Hero = () => {
                 </li>
                 <li className="snap-center xxs:shrink-0 lg:shrink bg-border-gradient p-[1px] rounded-full">
                     <Image
+                        loading="eager"
                         className="rounded-full lg:w-[280px]"
                         src={heroImage3}
                         width={320}
