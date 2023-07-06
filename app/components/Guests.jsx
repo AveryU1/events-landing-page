@@ -6,7 +6,7 @@ import Image from "next/image";
 import { inter } from "../fonts";
 export const Guests = () => {
     return (
-        <section className="max-w-[1440px] w-[90%] m-auto">
+        <section className="max-w-[1440px] w-[90%] m-auto pt-24">
             <h2 className="text-white text-[72px] text-center">Our Guests</h2>
             <ul
                 className={`${inter.variable} font-inter flex items-center lg:items-start xxs:overflow-auto snap-x snap-mandatory snap-center gap-4 lg:overflow-visible lg:justify-between lg:pt-24`}
@@ -39,8 +39,8 @@ export const Guests = () => {
                             height={440}
                             alt="hero-image-1"
                         />
-                        <div
-                            className="flex flex-col justify-center items-center h-24
+                        <article
+                            className="flex flex-col gap-4 justify-center items-center h-24
                     "
                         >
                             <h3 className=" text-white font-bold text-[20px]">
@@ -49,7 +49,7 @@ export const Guests = () => {
                             <p className="text-white font-bebas_neue font-normal">
                                 {elem.text}
                             </p>
-                        </div>
+                        </article>
                     </li>
                 ))}
             </ul>

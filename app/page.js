@@ -1,3 +1,4 @@
+import { Blog } from "./components/Blog";
 import { Guests } from "./components/Guests";
 import Hero from "./components/Hero";
 import { Navbar } from "./components/Navbar";
@@ -10,6 +11,7 @@ export default function Home() {
             {/* <WhatWeDo/> */}
             <Hero />
             <Guests />
+            <Blog />
         </main>
     );
 }
