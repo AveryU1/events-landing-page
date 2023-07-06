@@ -3,7 +3,7 @@ import React from "react";
 
 export const Footer = () => {
     return (
-        <footer className="flex flex-col gap-10 max-w-[1440px] w-[90%] m-auto">
+        <footer className="flex flex-col gap-10 max-w-[1440px] w-[90%] m-auto" id="terms">
             <div className="flex flex-col md:flex-row justify-between items-center pt-10">
                 <div className="flex flex-col items-center gap-3 md:items-start">
                     <div className="w-[54px] h-[70px] overflow-hidden flex flex-col items-center md:justify-start">
