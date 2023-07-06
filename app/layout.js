@@ -10,9 +10,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
     return (
         <html lang="en">
-            <head>
-            <link rel="preload" href="/_next/static/css/app/layout.css?v=1688662690249" as="style" />
-            </head>
+            <head></head>
             <body
                 className={`${bebas_neue.variable} ${inter.variable} font-bebas_neue  bg-[#0E121B] `}
             >
