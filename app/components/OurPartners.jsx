@@ -6,7 +6,7 @@ export const OurPartners = () => {
   return (
     <section className="flex flex-col gap-10 overflow-hidden max-w-[1440px] w-[90%] m-auto py-24" id='partners'>
         <h2 className="uppercase text-[#D9D9D9] text-4xl font-bebas_neue text-center font-bold pt-6 md:text-[72px]">our partners</h2>
-        <ul className='flex flex-col gap-5 sm:flex-row sm:flex-wrap justify-center md:justify-between'>
+        <ul className='flex flex-col gap-5 sm:flex-row sm:flex-wrap justify-center md:justify-between items-center'>
             {
                 partners.map(partner => (
                     <li key={partner.id} className='h-[315px] flex-shrink-0'>
