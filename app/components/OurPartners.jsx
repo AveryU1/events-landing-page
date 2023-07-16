@@ -15,6 +15,7 @@ export const OurPartners = () => {
             <ul className="flex flex-col gap-5 sm:flex-row sm:flex-wrap justify-center md:justify-between items-center">
                 {partners.map(partner => (
                     <motion.div
+                        key={partner.id}
                         whileInView={{ opacity: [0, 1], scale: [0.5, 1] }}
                         animate={{ opacity: 1, scale: 1 }}
                         transition={{
@@ -23,10 +24,7 @@ export const OurPartners = () => {
                             ease: [0, 0.71, 0.2, 1.01],
                         }}
                     >
-                        <li
-                            key={partner.id}
-                            className="h-[315px] flex-shrink-0"
-                        >
+                        <li className="h-[315px] flex-shrink-0">
                             <Image
                                 src={partner.imgLink}
                                 width={350}

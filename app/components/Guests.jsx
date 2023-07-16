@@ -33,11 +33,12 @@ export const Guests = () => {
                     },
                 ].map((elem, index) => (
                     <motion.div
+                        key={index}
                         className="rounded-[2.40rem] snap-center xxs:shrink-0 lg:shrink p-[1px] lg:  bg-[#191F2E]"
                         whileInView={{ opacity: [0, 1] }}
                         transition={{ duration: 1, delayChildren: 1 }}
                     >
-                        <li key={index}>
+                        <li>
                             <Image
                                 className="lg:w-[400px]"
                                 src={elem.imgUrl}
