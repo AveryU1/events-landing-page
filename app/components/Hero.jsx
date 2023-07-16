@@ -66,7 +66,7 @@ const Hero = () => {
                     className="h-96 w-full text-center bg-cover bg-no-repeat bg-center opacity-10 hidden lg:block"
                     style={{ backgroundImage: "url('/assets/crowd.webp')" }}
                 ></div>
-                <article className="lg:absolute flex flex-col justify-center items-center">
+                <article className="lg:absolute flex flex-col justify-center items-center overflow-hidden">
                     <motion.div
                         whileInView={{ x: [-100, 0], opacity: [0, 1] }}
                         transition={{ duration: 1 }}

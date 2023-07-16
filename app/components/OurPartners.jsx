@@ -32,7 +32,7 @@ export const OurPartners = () => {
                                 alt="partners img"
                                 className="md:h-auto"
                             />
-                            <div className="bg-color-card w-[350px] h-[86px] flex-shrink-0 flex justify-center items-center rounded-b-[50px] relative bottom-[85px]">
+                            <div className="bg-color-card w-[full] h-[86px] flex-shrink-0 flex justify-center items-center rounded-b-[50px] relative bottom-[85px]">
                                 <article className="flex justify-center items-center gap-2">
                                     <a
                                         href="#"
