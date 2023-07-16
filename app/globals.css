@@ -25,9 +25,15 @@ body {
     )
     rgb(var(--background-start-rgb));
 } */
-
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    scroll-behavior: smooth;
+    scroll-padding-top: 6rem;
+}
 @layer components {
-  .btn-gradient {
-    background: linear-gradient(301deg, #7F1CFC 0%, #FF1C60 100%);
-  }
+    .btn-gradient {
+        background: linear-gradient(301deg, #7f1cfc 0%, #ff1c60 100%);
+    }
 }

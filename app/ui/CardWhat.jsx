@@ -1,10 +1,14 @@
 import { whatWeDo } from "../constants/whatWeDo";
 import Image from "next/image";
-
+import { motion } from "framer-motion";
 export const CardWhat = () => {
     return (
-        <div className="flex gap-5 items-center overflow-x-scroll md:overflow-hidden md:flex-wrap md:justify-between md:gap-[36px]">
-            {whatWeDo.map((context) => (
+        <motion.div
+            whileInView={{ opacity: [0, 1] }}
+            transition={{ duration: 1, delayChildren: 1 }}
+            className="flex gap-5 items-center overflow-x-scroll md:overflow-hidden md:flex-wrap md:justify-between md:gap-[36px]"
+        >
+            {whatWeDo.map(context => (
                 <div
                     key={context.id}
                     className="rounded-[30px] bg-color-card flex flex-col items-center w-[315px] h-[657px] aspect-square md:w-[455px] xl:w-[555px]"
@@ -29,6 +33,6 @@ export const CardWhat = () => {
                     </div>
                 </div>
             ))}
-        </div>
+        </motion.div>
     );
 };
